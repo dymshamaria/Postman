@@ -1,5 +1,3 @@
-first
-
 //Статус код 200
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
@@ -134,7 +132,6 @@ pm.test("Correct_Age", function () {
     pm.expect(res_age_dog).to.eql(4);
 });
 
-
 object_info_4
 
 // Спарсить response body в json
@@ -226,7 +223,6 @@ let req = request.data;
 
 let req_salary = req.salary;
 let req_age = req.age;
-
 
 // Статус код 200
 pm.test("Status code is 200", function () {
